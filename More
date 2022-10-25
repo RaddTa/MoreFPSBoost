@@ -1,0 +1,4 @@
+game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs["Coin Rewards HUD"].Disabled = true
+    if game:GetService("Workspace"):FindFirstChild("__DEBRIS") then
+      game:GetService("Workspace")["__DEBRIS"]:Destroy()
+    end
